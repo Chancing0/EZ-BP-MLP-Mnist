@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Dec 11 17:05:00 2015
-
 @author: mcu
 """
 import math
