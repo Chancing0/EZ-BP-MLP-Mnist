@@ -193,46 +193,6 @@ class NN:
 
 
 def demo():
-    # Teach network XOR function
-    '''
-    data = np.array([
-        [[0,0], [0]],
-        [[0,1], [1]],
-        [[1,0], [1]],
-        [[1,1], [0]]
-    ])
-    '''
-    '''
-    #just add the third feature data (x1*x2) then just use 2 h_units is usefull, nice feature chose! 
-    data = np.array([
-        [[0,0,0], [0]],
-        [[0,1,0], [1]],
-        [[1,0,0], [1]],
-        [[1,1,1], [0]]
-    ])
-    '''
-    '''
-    #for Logical disjunction; must > 40 neurons
-    data = np.array([
-        [[0,0], [1]],
-        [[0,1], [1]],
-        [[1,0], [1]],
-        [[1,1], [0]]
-    ])
-    '''
-    '''
-    # for (x+y)z' logical gate
-    data = np.array([
-        [[0,0,0], [0]],
-        [[0,0,1], [1]],
-        [[0,1,0], [1]],
-        [[0,1,1], [1]],
-        [[1,0,0], [0]],
-        [[1,0,1], [0]],
-        [[1,1,1], [0]],
-        [[1,1,1], [0]],
-    ])
-    '''
     digits = datasets.load_digits()
     n_samples = len(digits.images)
     skldata = digits.images.reshape((n_samples, -1))
