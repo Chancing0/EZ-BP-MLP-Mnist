@@ -15,7 +15,7 @@ def demo():
         [[1,0,0], [1]],  
         [[1,1,1], [0]]  
     ])    
-as you can see , here is four samples, each samlpe has 3 inputs feature , and one out lable.  
+as you can see , here is four samples, each samlpe has 3 inputs feature , and one lable.  
 it's XOR gate Truth table with extended feture(X1*X2)  
 2. change the hyperparameters baseon your data form of below code to built your NN  
     n = NN(3, 10, 1)  
